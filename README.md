@@ -10,11 +10,13 @@
 - [計算範例與實測金鑰](examples/reference-vector.json)
 - [GUI 成功截圖](evidence/runtime/gui-success.jpg)
 - [本機 DLL 測試結果](evidence/runtime/native-results.json)
-- [網頁版 New Key 產生器](https://root50643.github.io/techstream-key-analysis/)
+- [網頁版 New Key 產生器](https://hplin50643.github.io/techstream-key-analysis/)
 
 ## 網頁版
 
-[開啟 GitHub Pages 計算器](https://root50643.github.io/techstream-key-analysis/)。英文介面可調整 Software ID、版本、OT／NA／EU／JP 地區、天數及本機產生時間，支援複製金鑰、載入所選地區的測試範例、查看兩階段摘要及下載 JSON。JP 另顯示重排前資料與版本依據。修改參數後會清除舊結果，避免複製到不對應的金鑰。
+[開啟 GitHub Pages 計算器](https://hplin50643.github.io/techstream-key-analysis/)。英文介面可調整 Software ID、版本、OT／NA／EU／JP 地區、天數及本機產生時間，支援複製金鑰、載入所選地區的測試範例、查看兩階段摘要及下載 JSON。JP 另顯示重排前資料與版本依據。修改參數後會清除舊結果，避免複製到不對應的金鑰。
+
+[![Techstream 網頁版計算器介面：參數設定與測試範例結果](docs/images/web-calculator.jpg)](https://hplin50643.github.io/techstream-key-analysis/)
 
 JP 支援 **主要版本 18**（本機 18.00.008 反編譯與原生函式核對）及 **主要版本 14**（公開腳本輸出重現）。兩者固定常數不同，其他 JP 主要版本會明確回報不支援。[JP 報告](docs/jp-analysis.md)列出完整重排、來源、測試與限制。
 
